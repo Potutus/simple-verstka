@@ -107,8 +107,11 @@
 }
 
 @font-face {
-  font-family: Manrope_f;
-  src: url(../fonts/manrope-rus-eng.woff2);
+  font-family: "Manrope_f";
+  src: url('../fonts/manrope-rus-eng.woff2') format('woff2'),
+      url('../fonts/manrope-russian.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* --------------- ---- --------------- */
