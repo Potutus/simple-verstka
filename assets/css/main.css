@@ -156,12 +156,15 @@ main {
 }
 
 aside {
-  flex: .7; 
+  flex: 0 0 20%;
+  box-sizing: border-box;
+  overflow: auto;    
 }
 
 .content {
   flex: 3;
   margin: 5px;
+  overflow: auto;
 }
 /* --- */
 
